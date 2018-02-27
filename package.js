@@ -11,7 +11,7 @@ Package.onUse(function (api) {
 
   // Core dependencies.
   api.use([
-    'coffeescript',
+    'coffeescript@1.0.5 || 2.0.0', // 1.0.5 is the version from Meteor 1.0.3.1.
     'reactive-var',
     'tracker',
     'underscore'
@@ -37,7 +37,7 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   // Core dependencies.
   api.use([
-    'coffeescript',
+    'coffeescript@1.0.5 || 2.0.0', // 1.0.5 is the version from Meteor 1.0.3.1.
     'templating',
     'jquery',
     'reactive-var',
